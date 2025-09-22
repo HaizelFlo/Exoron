@@ -1,0 +1,115 @@
+/*-- ENTRANCE CSS --*/
+$time: .06s;
+#ohh-container {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 9, 20,1);
+    animation-name: ohh-container;
+    animation-duration: 40*$time;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+    pointer-events: none;
+    z-index: 100000;
+}
+@keyframes ohh-container{
+    0% {
+        background: rgba(0,0,0,1);
+    } 
+    70%{
+        opacity: 1;
+        background: rgba(0, 9, 20,1);
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+#ohh{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#ohh img:nth-child(1){
+    height: 40px;
+    animation-delay: .5+(1*$time);
+}
+#ohh img:nth-child(2){
+    height: 50px;
+    animation-delay: .5+(2*$time);
+}
+#ohh img:nth-child(3){
+    height: 60px;
+    animation-delay: .5+(3*$time);
+}
+#ohh img:nth-child(4){
+    height: 70px;
+    animation-delay: .5+(4*$time);
+}
+#ohh img:nth-child(5){
+    height: 80px;
+    animation-delay: .5+(5*$time);
+}
+#ohh img:nth-child(6){
+    height: 90px;
+    animation-delay: .5+(6*$time);
+}
+#ohh img:nth-child(7){
+    height: 100px;
+    animation-delay: .5+(7*$time);
+}
+#ohh img:nth-child(8){
+    height: 110px;
+    animation-delay: .5+(8*$time);
+}
+.ohh-animate{
+    animation-name: ohh;
+    animation-duration: 28*$time;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    opacity: 0;
+}
+@keyframes ohh {
+    0% {
+        transform: scale(0) translate(-50%,700%);
+        opacity: 0;
+    }
+    30%{
+        transform: scale(1) translate(0,0);
+        filter: blur(0px);
+        opacity: 1;
+    }
+    60%{
+        transform: scale(1) translate(0,0);
+        filter: blur(0px);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(.5) translate(400%,-500%);
+        filter: blur(10px);
+        opacity: 0;
+    }
+
+}  
+.ligth-animation{
+    animation-name: ligth-animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes ligth-animation {
+    0% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(1.3);
+    }
+    100%{
+        filter: brightness(1);
+    }
+}  
+/*-- END ENTRANCE CSS --*/

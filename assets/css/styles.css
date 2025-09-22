@@ -1,0 +1,301 @@
+body {
+  background: black;
+  color: white;
+}
+
+.fondo-azul {
+    background-image: url(https://eroxon.mx/eroxon_copia/assets/img/fondo-que.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.borde-azul {
+  border: solid 1px #4543DC;
+}
+
+.borde-azulcielo {
+  border: solid 1px #00AEEF;
+}
+
+.borde-rosa {
+  border: solid 1px #920271;
+}
+
+.azul {
+  color: #4543DC;
+  filter: brightness(0) saturate(100%) invert(26%) sepia(66%) saturate(2676%) hue-rotate(232deg) brightness(86%) contrast(102%);
+}
+
+.azulfuerte {
+  color: #252476;
+  filter: brightness(0) saturate(100%) invert(20%) sepia(10%) saturate(7486%) hue-rotate(214deg) brightness(89%) contrast(105%);
+}
+
+.morado {
+  color: #920271;
+  filter: brightness(0) saturate(100%) invert(7%) sepia(86%) saturate(6614%) hue-rotate(308deg) brightness(108%) contrast(100%);
+}
+
+.azulcielo {
+  color: #00AEEF;
+  filter: brightness(0) saturate(100%) invert(54%) sepia(47%) saturate(4853%) hue-rotate(165deg) brightness(102%) contrast(101%);
+}
+
+li.nav-item {
+  padding: 0 20px;
+  text-align: center;
+  font-size: 9pt;
+}
+
+header #header {
+  max-width: 1000px;
+  width: 100%;
+}
+header #slogan {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.productshot {
+  margin-bottom: -100px;
+}
+
+.gradiente-rosa {
+  background: radial-gradient(ellipse at bottom, #420128, transparent);
+}
+
+.scrolled nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 42pt;
+  padding-bottom: 1rem;
+}
+
+h4 {
+  padding-bottom: 1rem;
+}
+
+.btn {
+  background-color: #920271;
+  padding: 8px 18px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  max-width: 800px;
+}
+
+ol li, ul li {
+  padding: 5px 0;
+}
+
+.title-gradient {
+  background: #02A6E0;
+  background: linear-gradient(to right, #02A6E0 20%, #6E2FD4 50%, #FA2AC4 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-gradient2 {
+  background: #02A6E0;
+  background: linear-gradient(to right, #02A6E0 10%, #6E2FD4 20%, #FA2AC4 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.testimoniales {
+  margin-top: 0px;
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  .testimoniales {
+    margin-top: 60px;
+  }
+}
+
+.testimonials {
+  margin-bottom: 3rem;
+  font-size: 14pt;
+}
+.testimonials img {
+  float: left;
+  padding-right: 20px;
+  max-width: 80px;
+}
+
+.productshot {
+  margin-bottom: 0px;
+  width: 470px;
+}
+@media (min-width: 992px) {
+  .productshot {
+    margin-bottom: -184px;
+  }
+}
+
+.col-derecha {
+  margin-top: 48px;
+}
+@media (min-width: 992px) {
+  .col-derecha {
+    margin-top: 0px;
+  }
+}
+
+section {
+  color: #000;
+  overflow: hidden;
+}
+section.esparami {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 36%, rgb(217, 217, 217) 36%, rgb(217, 217, 217) 50%);
+}
+section.esparami .container {
+  background-color: #fff;
+}
+section.esparami .top {
+  border-radius: 30px 30px 0 0;
+  margin-top: 47px;
+}
+section.esparami .bottom {
+  border-radius: 0 0 30px 30px;
+  background-image: url("../img/shutterstock_534332431 1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  margin-bottom: 47px;
+}
+section.mecanismo {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 36%, rgb(217, 217, 217) 36%, rgb(217, 217, 217) 50%);
+}
+section.mecanismo .container {
+  background-color: #fff;
+}
+section.mecanismo .container.bottom {
+  background-image: url("../img/shutterstock_2208442791 1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+}
+section.seguridad {
+  background: #fff;
+}
+section.seguridad > .row {
+  margin-top: -300px;
+}
+
+.referencias {
+  font-size: 11pt;
+}
+
+#carouselExampleIndicatorsTestimonials .carousel-indicators {
+  bottom: -10px;
+}
+#carouselExampleIndicatorsTestimonials .carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100%;
+  background-color: #000 !important;
+  border: 2px solid #4543DC !important;
+  opacity: 1 !important;
+}
+#carouselExampleIndicatorsTestimonials .carousel-indicators button.active {
+  background-color: #4543DC !important;
+  border: 2px solid #4543DC !important;
+}
+
+#carouselExampleIndicatorsFrase .carousel-control-next {
+  background-color: #00AEEF;
+  border-radius: 50%;
+  height: 54px;
+  width: 54px;
+  right: -63px;
+  z-index: 1;
+  top: 22px;
+  position: absolute;
+  opacity: 1;
+}
+
+#carouselExampleIndicatorsCuadros .carousel-indicators {
+  justify-content: end !important;
+  margin: 0 !important;
+  bottom: -5px;
+}
+#carouselExampleIndicatorsCuadros .carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100%;
+  background-color: #fff !important;
+  border: 2px solid #4543DC !important;
+  opacity: 1 !important;
+}
+#carouselExampleIndicatorsCuadros .carousel-indicators button.active {
+  background-color: #4543DC !important;
+  border: 2px solid #4543DC !important;
+}
+
+#carouselExampleIndicatorsCausas {
+  background-color: #00AEEF;
+  color: #fff;
+  padding: 3rem;
+  border-radius: 30px;
+  margin-right: 56px;
+}
+#carouselExampleIndicatorsCausas ul {
+  padding-left: 5rem;
+}
+#carouselExampleIndicatorsCausas .carousel-control-next {
+  background-color: #00AEEF;
+  border-radius: 50%;
+  height: 54px;
+  width: 54px;
+  right: -56px;
+  z-index: 1;
+  top: 40%;
+  position: absolute;
+  opacity: 1;
+}
+#carouselExampleIndicatorsCausas .carousel-control-next-icon {
+  transform: rotateZ(0deg);
+}
+
+.eroxon .left {
+  border-radius: 30px;
+}
+@media (min-width: 992px) {
+  .eroxon .left {
+    border-radius: 30px 0 0 30px;
+  }
+}
+.eroxon .center {
+  background: rgb(250, 42, 196);
+  background: linear-gradient(321deg, rgb(250, 42, 196) 0%, rgb(110, 47, 212) 38%, rgb(2, 166, 224) 71%);
+  border-radius: 30px;
+}
+@media (min-width: 992px) {
+  .eroxon .center {
+    border-radius: 30px 30px 0 0;
+  }
+}
+.eroxon .right {
+  border-radius: 30px;
+}
+@media (min-width: 992px) {
+  .eroxon .right {
+    border-radius: 0px 30px 30px 0;
+  }
+}/*# sourceMappingURL=styles.css.map */

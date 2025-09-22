@@ -1,0 +1,314 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.referencias{
+    overflow-wrap: break-word
+}
+.farmacias{
+    background-color: white;
+
+    a img{
+        transition-duration: .25s;
+        //filter: saturate(0);
+
+    }
+
+    a:hover img{
+        //filter: saturate(1);
+        transform: scale(1.1);
+
+    }
+}
+.navbar-nav li a.nav-link.btn-color {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.slick-dots li button:before {
+    opacity: .35;
+    color: #4543dc;
+    font-size: 13px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #4543dc;
+}
+#btn-referencias{
+    cursor: pointer;
+}
+#btn-referencias:hover{
+    color: #4543dc;
+}
+.img-volada{
+    cursor: pointer;
+}
+.disfuncionbody .carousel-inner, .disfuncionbody  .vertical.carousel .carousel-item {
+    overflow: visible !important;
+}
+.carousel-item-prev, .carousel-item-next {
+    opacity: 0!important;
+}
+.legend{
+    font-size: 11px!important;
+}
+footer{
+    font-size: 10px!important;
+    a{
+        color: white;
+        text-decoration: none;
+        transition-duration: .25s;
+        &:hover{
+            color: #fba8e6;
+        }
+    }
+}
+button.slick-prev.slick-arrow, 
+button.slick-next.slick-arrow {
+    background: #00aeef;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+}
+.slick-next:before {
+    content: '>';
+}
+.slick-prev:before {
+    content: '<';
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 22px;
+    line-height: .5;
+    opacity: 1;
+    color: white;
+}
+.m8-tienda, .caja-tienda a {
+    background: #EFEDFA;
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.maximg{
+    height: 189px;
+    width: auto;
+}
+hr {
+    color: #920271;
+    /* border-bottom: solid 1px; */
+}
+.pregunta {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between
+}
+.respuestas {
+    color: #8E8AB6;
+    margin: 40px 0;
+    transition-duration: .5s;
+    overflow: hidden;
+}
+.container-preg.off{
+    .respuestas{
+        height: 0px;
+        margin: 0px;
+    }
+}
+
+.plus,#btn-referencias {
+    border: solid 1px #920271;
+    display: inline-block;
+    padding: 2px 25px;
+    border-radius: 50px;
+    right: 0;
+    color: #920271;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+.plus:hover, #btn-referencias:hover {
+    color: black;
+    background-color: #920271;
+}
+a.pregfrec {
+    font-size: 12px;
+    display: block;
+}
+
+#product-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    a{
+        max-width: 500px;
+    }
+    #close {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        font-size: 70px;
+        cursor: pointer;
+    }
+}
+#close {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    font-size: 35px;
+    cursor: pointer;
+    transform: rotate(45deg);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: black;
+}
+@media(max-width: 500px){
+    #navbarCollapse {
+        background: rgba(0, 0, 0, .8);
+        backdrop-filter: blur(9px);
+    }
+    .testimonialesh2{
+        font-size: 35px !important;
+    }
+}
+
+@media(max-width: 768px){
+    header #slogan{
+        top: 130px;
+        position: absolute;
+    }
+    #m8{
+        position: initial;
+    }
+    header #slogan {
+        width: 90%;
+    }
+    h2 {
+        font-size: 40px!important;
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .p-sp-6{
+        padding: 1rem 4rem 1rem 1rem !important;
+    }
+    main.hablar .comunicacion .text {
+        padding: 2rem 2rem 0 2rem;
+    }
+    main.hablar .intimidad .col-derecho {
+        padding: 2rem;
+    }
+    section.apoyo .pareja-disfuncion .text {
+        padding: 2rem;
+    }
+    .vertical.carousel .carousel-indicators [data-bs-target] {
+        width: 33%!important;
+        border-radius: 0!important;
+        background: white!important;
+    }
+    .carousel-indicators button p{
+        position: initial!important;
+    }
+    .vertical.carousel .carousel-indicators [data-bs-target] {
+        height: 40px!important;
+    }
+    .carousel-indicators.complicaciones .active::after {
+        display: none!important;
+    }
+    .vertical.carousel .carousel-item {
+        padding-top: 20px;
+    }
+    /*#popup {
+        position: fixed;
+        bottom: -10px;
+        right: 10px;
+        width: 150px;
+        z-index: 20000;
+        transition-duration: .5s;
+    }*/
+    #popup {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        width: 270px;
+        z-index: 20000;
+        transition-duration: .5s;
+        background: rgba(0, 0, 0, .8);
+        padding: 10px;
+        border-radius: 30px;
+    }
+    .positive #popup {
+        width: 140px;
+        bottom: 0px;
+        opacity: 0;
+        pointer-events: none;
+    }
+    header #sloganprod{
+        display: none!important;
+    }
+}
+@media(min-width: 768px){
+    #m8,header #slogan{
+        position: absolute!important;
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    a.nav-link, .navbar .nav-item, nav.navbar {
+        transition-duration: .25s;
+    }
+    .img-volada{
+        cursor: pointer;
+        transform: translateX(100px);
+    }
+     
+    .scrolled{
+        a.nav-link {
+            font-size: 11px;
+            padding: 2px 0px;
+        }
+        .navbar .nav-item {
+            padding: 5px 5px !important;
+        }
+        nav.navbar {
+            padding: 0;
+        }
+    }
+    #popup {
+        position: fixed;
+        bottom: 30px;
+        right: 60px;
+        width: 230px;
+        z-index: 20000;
+        transition-duration: .5s;
+    }
+    .scrolled #popup {
+        width: 140px;
+    }
+}
+@media (min-width: 1300px) {
+    section.apoyo .pareja-disfuncion .cuadro-negro {
+        width: 26%!important;
+    }
+}
+sup{
+    font-size: 9px;
+    font-weight: normal;
+    opacity: .7;
+}

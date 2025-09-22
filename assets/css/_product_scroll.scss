@@ -1,0 +1,41 @@
+
+#m8{
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 100%;
+    max-width: 500px;
+}
+.esparami{
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+.logo{
+    width: 100px!important;
+}
+/*PRODUCT SHOT SCROLL*/
+#productshot-scroll {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 20000;
+    transition-property: bottom, right, transform,opacity;
+    transition-duration: .2s,.5s,.5s,.25s;
+}
+#productshot-scroll.scrolled{
+    right: 0;
+    transform: translateX(150px);
+}
+.slider-fade #productshot-scroll{
+    right: 100%;
+    transform: translateX(80%);
+}
+.fade{
+    opacity: 0;
+    pointer-events: none;
+}
+.paraquienes{
+    z-index: 200;
+}
